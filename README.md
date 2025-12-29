@@ -1,15 +1,13 @@
 # ARMv8 Emulator & Assembler
 
-A comprehensive AArch64 instruction set simulator and assembler, developed as a team project. This project implements a full-stack toolchain for ARMv8 architecture, from assembly source code to executable binary simulation.
+Team project building a complete AArch64 toolchain - an assembler that translates assembly to binary, and an emulator that simulates instruction execution.
 
-## Overview
+## Components
 
-This project consists of two main components:
+- **Emulator**: Simulates ARMv8 binary instructions with full machine state tracking (registers, memory, PC, flags)
+- **Assembler**: Translates ARMv8 assembly source into executable binaries
 
-- **Emulator**: Simulates the execution of ARMv8 binary instructions and provides detailed machine state visualization
-- **Assembler**: Translates ARMv8 assembly source code into executable binary instructions
-
-The project was developed by a team of 4 and includes extension projects demonstrating real-world applications.
+Developed by a team of 4. Includes extension projects (LED control program for Raspberry Pi, IQ Fit puzzle game).
 
 ## Features
 
